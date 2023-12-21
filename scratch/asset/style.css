@@ -1,0 +1,411 @@
+
+/* header and hero section */
+.bg-ground{
+  background-image: url(.//img/bg-small.jpg);
+  height: 90vh;
+  width: 100%;
+}
+@media (max-width:1024px) {
+  .bg-ground{
+    background-image: url(.//img/bg-small.jpg);
+    height:500px ;
+    
+  }
+}
+.txt-clr{
+  color: bisque;
+  font-size: 70px;
+  text-align: center;
+ 
+}
+.txt-clr1{
+  color: bisque;
+  font-size: 30px;
+  text-align: center;
+
+}
+.h2-span{
+  color: azure;
+  font-size: 50px;
+}
+
+span{
+  color: black;
+  font-weight: 500px;
+  font-size: 20px;
+}
+
+.li-hov:hover{
+  background-color: rgb(34, 100, 223);
+  border-radius: 50px;
+  color: white;
+}
+span:hover{
+  color: azure  ;
+}
+.facebook:hover{
+  text-shadow: 0 0 5px #ff1080;
+  background-color: #ff1080;
+  border-radius: 50%;
+}
+.instagram:hover{
+
+  background-color: #ff1080;
+  border-radius: 50%;
+  color: #ff1080;
+  
+  text-shadow: 0 0 5px #ff1080;
+}
+.linkedin:hover{
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  color: #ff1080;
+  text-shadow: 0 0 5px #ff1080;
+}
+.social-links{
+  text-align: center;
+  position: relative;
+  top: 280px;
+}
+
+/* header and hero section end */
+
+
+/* About sction */
+.abt-img{
+  border-radius: 50% ;
+  box-shadow: 1px 1px 1px , 0 0 25px rgb(9, 45, 59), 0 0 5px rgb(255, 255, 255);
+}
+.abt-img:hover{
+
+  color: #ff1080;
+  text-shadow: 20px 20px 20px 20px #ff1080;
+}
+.txt-style{
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: justify;
+}
+
+/* what ihave done */
+
+
+.thumbnail{
+  height: 300px;
+}
+
+.skill__container--narrow{
+  max-width:2000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.skill .thumbnail{
+  padding: 10px 40px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.2);
+ 
+}
+
+.skill .thumbnail .progress-bar{
+  border-radius: 10px;
+}
+
+
+.skill__single-part__title{
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 50px;
+  margin-top: 30px;
+ 
+  
+}
+
+
+.gutters-60 > [class^="col-"], .gutters-60 > [class^="col-"]{
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.page-section{
+
+ justify-content: center;
+}
+/* end */
+
+/* certification */
+.certi{
+  width: 100px;
+}
+.certi3{
+  width: 150px;
+}
+/* media */
+
+.med-img{
+  width: auto;
+  height: 500px;
+  position: relative;
+  top: 100px;
+}
+@media (max-width:450px) {
+  .med-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 150px;
+  }
+}
+
+.carousel-item{
+  width:400px;
+  height: 500px;
+  text-align: center;
+}
+
+
+.med-vid{
+  width:800px;
+  height: 600px;
+ 
+}
+@media (max-width:650px) {
+  
+  .med-vid{
+    width:500px;
+    height:500px ;
+   
+  }
+    
+  }
+@media (max-width:400px) {
+  
+.med-vid{
+  width:350px;
+  height: 500px;
+ 
+}
+  
+}
+
+
+.link-cnt{
+  text-decoration: none;
+}
+/* whatsapp */
+#whatsapp-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: opacity 0.3s;
+}
+@media (max-width:450px) {
+  #whatsapp-button {
+    position: fixed;
+    bottom: 30px;
+    right: 0px;
+    transition: opacity 0.3s;
+  }
+}
+
+
+
+.hidden {
+  opacity: 0;
+}
+.foot-style{
+  background-color: #242020;
+  height: auto;
+}
+
+.github:hover {
+  color: #ff1080;
+  
+  text-shadow: 0 0 5px #ff1080;
+}
+/*  */
+.nav-link {
+  font-family: 'Titillium Web';
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+/*  */
+/* contact blub */
+/* 
+.dd {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(
+    180deg,
+    rgba(47, 184, 255,0.42) 31.77%,
+    #5c9df1 100%
+  );
+  mix-blend-mode: color-dodge;
+  -webkit-animation: move 30s infinite alternate;
+          animation: move 30s infinite alternate;
+  transition: 1s cubic-bezier(0.07, 0.8, 0.16, 1);
+}
+
+.dd:hover {
+  width: 250px;
+  height: 250px;
+  -webkit-filter: blur(30px);
+          filter: blur(30px);
+  box-shadow:
+    inset 0 0 0 5px rgba(255,255,255, 0.6),
+    inset 100px 100px 0 0px #fa709a,
+    inset 200px 200px 0 0px #784ba8,
+    inset 300px 300px 0 0px #2b86c5;
+}
+
+@-webkit-keyframes move {
+  from {
+    transform: translate(-100px, -50px) rotate(-90deg);
+    border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+  }
+
+  to {
+    transform: translate(500px, -100px) rotate(-10deg);
+    border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
+  }
+}
+
+@keyframes move {
+  from {
+    transform: translate(-100px, -50px) rotate(-90deg);
+    border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+  }
+
+  to {
+    transform: translate(500px,- 50px) rotate(-10deg);
+    border-radius: 76% 24% 33% 67% / 68% 55% 45% 32%;
+  }
+} */
+
+
+/* about blub */
+
+
+
+
+
+.carousel-control-next-icon{
+  background-color: black;
+  position:absolute;
+  top: 300px;
+}
+.carousel-control-prev-icon{
+  background-color: black;
+  position:absolute;
+  top: 300px;
+}
+.carousel-item{
+  width: 500px;
+}
+.hero-txt{
+  position:relative;
+  top: 150px;
+ 
+}
+@media (max-width:780px) {
+  .hero-txt{
+    position:relative;
+    top: -50px;
+   
+  }
+  .txt-clr{
+    color: bisque;
+    font-size: 40px;
+    text-align: center;
+    position:absolute;
+    top: 200px;
+  }
+  .txt-clr1{
+    color: bisque;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 250px;
+  }
+  .h2-span{
+    color: azure;
+    font-size: 30px;
+  }
+  
+  span{
+    color: black;
+    
+    font-size: 20px;
+  }
+}
+@media (max-width:650px) {
+  .txt-clr{
+    color: bisque;
+    font-size: 40px;
+    text-align: center;
+    
+  }
+  .txt-clr1{
+    color: bisque;
+    font-size: 20px;
+    text-align: center;
+   
+  }
+  .h2-span{
+    color: azure;
+    font-size: 30px;
+  }
+  
+  span{
+    color: black;
+    
+    font-size: 20px;
+  }
+}
+@media (max-width:530px) {
+  .txt-clr{
+    color: bisque;
+    font-size: 40px;
+    text-align: center;
+    position:absolute;
+   
+  }
+  .txt-clr1{
+    color: bisque;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+   
+  }
+  .h2-span{
+    color: azure;
+    font-size: 30px;
+  }
+  
+  span{
+    color: black;
+    
+    font-size: 20px;
+  }
+}
+.abt-link{
+  text-decoration: none;
+}
+#navbar1 {
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+  height: auto; 
+  transition: top 0.3s; 
+}
+
+@media (max-width:1295px) {
+  .this-one{
+    height: auto;
+  }
+  .thumbnail{
+    height: auto;
+  }
+}
